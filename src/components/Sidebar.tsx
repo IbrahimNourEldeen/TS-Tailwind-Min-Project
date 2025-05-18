@@ -17,7 +17,6 @@ const Sidebar = () => {
         setMinPrice,
         maxPrice,
         setMaxPrice,
-        keyword,
         setKeyword
     } = useFilter();
 
@@ -71,7 +70,7 @@ const Sidebar = () => {
     }
     return (
         <div className="w-64  h-screen p-5">
-            <h1 className="text-2xl font-bold mb-4 mb-10">React Store</h1>
+            <h1 className="text-2xl font-bold mb-4">React Store</h1>
 
             <section className="">
 
